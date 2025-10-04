@@ -1,0 +1,172 @@
+{
+    "LOAN_WITNESS_COUNT": 3,
+    "ROLES": {
+        "PRESIDENT": "president",
+        "VICE_PRESIDENT": "vice_president",
+        "MEMBER": "member",
+        "ARRAY": [
+            "president",
+            "vice_president",
+            "member"
+        ]
+    },
+    "PAYMENT_STATUS": {
+        "PENDING": "pending",
+        "SUBMITTED": "submitted",
+        "PAID": "paid",
+        "REJECTED": "rejected"
+    },
+    "LOAN_APPLICATION_STATUS": {
+        "PENDING": "pending",
+        "REJECTED": "rejected",
+        "APPROVED": "approved",
+        "ARRAY": [
+            "pending",
+            "rejected",
+            "approved"
+        ]
+    },
+    "LOAN_APPLICATION_WITNESS_ACTION_STATUS": {
+        "PENDING": "pending",
+        "REJECTED": "rejected",
+        "APPROVED": "approved",
+        "ARRAY": [
+            "pending",
+            "rejected",
+            "approved"
+        ]
+    },
+    "LOAN_STATUS": {
+        "ACTIVE": "active",
+        "CLOSED": "closed",
+        "ARRAY": [
+            "active",
+            "closed"
+        ]
+    },
+    "GROUP_TRANSACTION_TYPES": {
+        "SAVINGS_DEPOSIT": "savings_deposit",
+        "LOAN_DISBURSED": "loan_disbursed",
+        "LOAN_PROCESSING_FEE": "loan_processing_fee",
+        "LOAN_INSTALLMENT": "loan_installment",
+        "PENALTY": "penalty",
+        "GROUP_EXPENSE": "group_expense",
+        "WITHDRAWL_SAVINGS": "withdrawl_savings",
+        "USER_DEPOSIT": "user_deposit",
+        "LOAN_PRECLOSE": "loan_preclose",
+        "OTHERS": "others",
+        "ARRAY": [
+            "savings_deposit",
+            "loan_disbursed",
+            "loan_processing_fee",
+            "loan_installment",
+            "group_expense",
+            "withdrawl_savings",
+            "user_deposit",
+            "loan_preclose",
+            "others"
+        ]
+    },
+    "GROUP_FLOW_TYPES": {
+        "IN": "in",
+        "OUT": "out",
+        "ARRAY": [
+            "in",
+            "out"
+        ]
+    },
+    "EMI_SCHEDULE_STATUS": {
+        "PENDING": "pending",
+        "SUBMITTED": "submitted",
+        "COMPLETED": "completed",
+        "ARRAY": [
+            "pending",
+            "submitted",
+            "completed"
+        ]
+    },
+    "LOAN_PAYMENT_STATUS": {
+        "SUCCESS": "success",
+        "FAILED": "failed",
+        "ARRAY": [
+            "success",
+            "failed"
+        ]
+    },
+    "SAVINGS_STATUS": {
+        "PENDING": "pending",
+        "SUBMITTED": "submitted",
+        "APPROVED": "approved",
+        "REJECTED": "rejected",
+        "ARRAY": [
+            "pending",
+            "submitted",
+            "approved",
+            "rejected"
+        ]
+    },
+    "SETTINGS": {
+        "FREQUENCY": {
+            "WEEKLY": "weekly",
+            "MONTHLY": "monthly",
+            "ARRAY": [
+                "weekly",
+                "monthly"
+            ]
+        },
+        "LOAN_SETTINGS": {
+            "INTEREST_TYPE": {
+                "FIXED": "fixed",
+                "VARIABLE": "variable",
+                "ARRAY": [
+                    "fixed",
+                    "variable"
+                ]
+            },
+            "INSTALLMENT_TYPE": {
+                "FLAT": "flat",
+                "REDUCING": "reducing",
+                "ARRAY": [
+                    "flat",
+                    "reducing"
+                ]
+            }
+        }
+    },
+    "RULE_NOTICE_TYPES": {
+        "RULE": "rule",
+        "NOTICE": "notice",
+        "ARRAY": [
+            "rule",
+            "notice"
+        ]
+    },
+    "GOVT_SCHEMES_LANG": {
+        "EN": "en",
+        "HI": "hi",
+        "MR": "mr",
+        "ARRAY": [
+            "en",
+            "hi",
+            "mr"
+        ]
+    },
+    "ISSUE_SEVERITY": {
+        "MAJOR": "major",
+        "MINOR": "minor",
+        "MODERATE": "moderate",
+        "ARRAY": [
+            "major",
+            "minor",
+            "moderate"
+        ]
+    },
+    "ISSUE_STATUS": {
+        "ACTIVE": "active",
+        "CLOSED": "closed",
+        "ARRAY": [
+            "active",
+            "closed"
+        ]
+    }
+}

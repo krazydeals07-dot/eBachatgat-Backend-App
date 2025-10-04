@@ -1,0 +1,297 @@
+2025-06-24T07:52:39.318Z [31merror[39m: [31mMongoDB connection error: querySrv ENOTFOUND _mongodb._tcp.clster0.h5nml.mongodb.net[39m
+2025-06-24T07:56:26.801Z [31mcritical[39m: [31mMongoDB connection error: querySrv ENOTFOUND _mongodb._tcp.clster0.h5nml.mongodb.net[39m
+2025-06-24T07:56:31.370Z [31mcritical[39m: [31mMongoDB connection error: querySrv ENOTFOUND _mongodb._tcp.clster0.h5nml.mongodb.net[39m
+2025-07-03T16:44:28.383Z [31mcritical[39m: [31mMongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.h5nml.mongodb.net[39m
+2025-07-05T09:28:13.549Z [31merror[39m: [31mError getting users by group: {"stringValue":"\"undefined\"","valueType":"string","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"shg_group\""}[39m
+2025-07-05T09:28:22.997Z [31merror[39m: [31mError getting users by group: {"stringValue":"\"undefined\"","valueType":"string","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"shg_group\""}[39m
+2025-07-05T09:29:10.078Z [31merror[39m: [31mError getting users by group: {"stringValue":"\"undefined\"","valueType":"string","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"shg_group\""}[39m
+2025-07-05T09:29:37.070Z [31merror[39m: [31mError getting users by group: {"stringValue":"\"undefined\"","valueType":"string","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"shg_group\""}[39m
+2025-07-05T09:34:50.191Z [31merror[39m: [31mError getting users by group: {"stringValue":"\"undefined\"","valueType":"string","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"shg_group\""}[39m
+2025-07-05T09:36:05.396Z [31merror[39m: [31mError getting users by group: {"stringValue":"\"undefined\"","valueType":"string","kind":"ObjectId","value":"undefined","path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"shg_group\""}[39m
+2025-07-05T12:53:19.229Z [31merror[39m: [31mError deleting user: {"stringValue":"\"[object Object]\"","valueType":"string","kind":"ObjectId","value":"[object Object]","path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"[object Object]\" (type string) at path \"_id\" for model \"user\""}[39m
+2025-07-05T12:53:26.869Z [31merror[39m: [31mError deleting user: {"stringValue":"\"[object Object]\"","valueType":"string","kind":"ObjectId","value":"[object Object]","path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"[object Object]\" (type string) at path \"_id\" for model \"user\""}[39m
+2025-07-05T12:57:52.645Z [31merror[39m: [31mError deleting user: {"stringValue":"\"[object Object]\"","valueType":"string","kind":"ObjectId","value":"[object Object]","path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"[object Object]\" (type string) at path \"_id\" for model \"user\""}[39m
+2025-07-05T12:58:29.886Z [31merror[39m: [31mError deleting user: {"stringValue":"\"[object Object]\"","valueType":"string","kind":"ObjectId","value":"[object Object]","path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"[object Object]\" (type string) at path \"_id\" for model \"user\""}[39m
+2025-07-13T17:25:16.447Z error: Error in initiateSavingsPayment: Cannot access 'weekNumber' before initialization {}
+2025-07-14T07:32:15.368Z error: Error in updateSavingsDetails: Cannot destructure property 'payment_id' of 'req.body' as it is undefined. {}
+2025-07-14T07:32:40.637Z error: Error in updateSavingsDetails: Cannot destructure property 'payment_id' of 'req.body' as it is undefined. {}
+2025-07-14T07:38:57.132Z error: Error in updateSavingsDetails: Cannot destructure property 'payment_id' of 'req.body' as it is undefined. {}
+2025-07-14T07:39:59.638Z error: Error uploading file: Vercel Blob: Body must be a string, buffer or stream. You sent a plain JavaScript object, double check what you're trying to upload. {}
+2025-07-14T07:39:59.639Z error: Error in updateSavingsDetails: Cannot read properties of null (reading 'url') {}
+2025-07-15T11:08:11.953Z error: Error verifying token: {}
+2025-07-27T09:20:15.728Z critical: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.h5nml.mongodb.net {
+  "code": "ECONNREFUSED",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.h5nml.mongodb.net"
+}
+2025-07-27T09:20:20.258Z critical: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.h5nml.mongodb.net {
+  "code": "ECONNREFUSED",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.h5nml.mongodb.net"
+}
+2025-07-27T09:22:36.450Z critical: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.h5nml.mongodb.net {
+  "code": "ECONNREFUSED",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.h5nml.mongodb.net"
+}
+2025-07-27T09:36:24.507Z error: Cannot read properties of null (reading 'loan_settings')
+2025-07-28T11:53:44.563Z error: moment is not defined
+2025-07-28T11:54:03.091Z error: loan validation failed: collateral: Path `collateral` is required.
+2025-07-28T11:54:38.137Z error: emi_schedule validation failed: total_installment_amount: Path `total_installment_amount` is required., principal_component: Path `principal_component` is required., interest_component: Path `interest_component` is required.
+2025-07-28T12:47:21.095Z error: emi_schedule validation failed: interest_component: Cast to Number failed for value "NaN" (type number) at path "interest_component"
+2025-07-29T10:41:50.310Z critical: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.h5nml.mongodb.net {
+  "code": "ECONNREFUSED",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.h5nml.mongodb.net"
+}
+2025-07-29T11:05:23.417Z error: Error in createLoanPayment: loan_payment validation failed: proof: Path `proof` is required. {
+  "errors": {
+    "proof": {
+      "name": "ValidatorError",
+      "message": "Path `proof` is required.",
+      "properties": {
+        "message": "Path `proof` is required.",
+        "type": "required",
+        "path": "proof",
+        "value": null
+      },
+      "kind": "required",
+      "path": "proof",
+      "value": null
+    }
+  },
+  "_message": "loan_payment validation failed",
+  "name": "ValidationError",
+  "message": "loan_payment validation failed: proof: Path `proof` is required."
+}
+2025-07-29T11:07:47.829Z error: Error uploading file: Vercel Blob: This blob already exists, use `allowOverwrite: true` if you want to overwrite it. Or `addRandomSuffix: true` to generate a unique filename. Read more about this error in our documentation: https://vercel.link/blob-allow-overwrite {}
+2025-07-29T11:07:47.831Z error: Error in createLoanPayment: Cannot read properties of null (reading 'url') {}
+2025-07-30T19:18:29.216Z error: emi_schedule validation failed: remaining_principal: Path `remaining_principal` (-16) is less than minimum allowed value (0).
+2025-08-17T08:59:59.032Z error: Error in getBalanceSheetData: Cannot access 'user' before initialization {}
+2025-08-31T08:16:38.122Z error: Error in listShgGroups: invalid argument to $skip stage: Expected a number in: $skip: null {
+  "errorLabelSet": {},
+  "errorResponse": {
+    "ok": 0,
+    "errmsg": "invalid argument to $skip stage: Expected a number in: $skip: null",
+    "code": 5107200,
+    "codeName": "Location5107200",
+    "$clusterTime": {
+      "clusterTime": {
+        "$timestamp": "7544660670231347211"
+      },
+      "signature": {
+        "hash": "ElKee/5YX5FXhpaSc8iGNB9qsn0=",
+        "keyId": {
+          "low": 6,
+          "high": 1744697874,
+          "unsigned": false
+        }
+      }
+    },
+    "operationTime": {
+      "$timestamp": "7544660670231347211"
+    }
+  },
+  "ok": 0,
+  "code": 5107200,
+  "codeName": "Location5107200",
+  "$clusterTime": {
+    "clusterTime": {
+      "$timestamp": "7544660670231347211"
+    },
+    "signature": {
+      "hash": "ElKee/5YX5FXhpaSc8iGNB9qsn0=",
+      "keyId": {
+        "low": 6,
+        "high": 1744697874,
+        "unsigned": false
+      }
+    }
+  },
+  "operationTime": {
+    "$timestamp": "7544660670231347211"
+  }
+}
+2025-08-31T08:16:40.784Z error: Error in listShgGroups: invalid argument to $skip stage: Expected a number in: $skip: null {
+  "errorLabelSet": {},
+  "errorResponse": {
+    "ok": 0,
+    "errmsg": "invalid argument to $skip stage: Expected a number in: $skip: null",
+    "code": 5107200,
+    "codeName": "Location5107200",
+    "$clusterTime": {
+      "clusterTime": {
+        "$timestamp": "7544660683116249093"
+      },
+      "signature": {
+        "hash": "iu2uh7tgowa6Zk5TZQSroD4QTuk=",
+        "keyId": {
+          "low": 6,
+          "high": 1744697874,
+          "unsigned": false
+        }
+      }
+    },
+    "operationTime": {
+      "$timestamp": "7544660683116249093"
+    }
+  },
+  "ok": 0,
+  "code": 5107200,
+  "codeName": "Location5107200",
+  "$clusterTime": {
+    "clusterTime": {
+      "$timestamp": "7544660683116249093"
+    },
+    "signature": {
+      "hash": "iu2uh7tgowa6Zk5TZQSroD4QTuk=",
+      "keyId": {
+        "low": 6,
+        "high": 1744697874,
+        "unsigned": false
+      }
+    }
+  },
+  "operationTime": {
+    "$timestamp": "7544660683116249093"
+  }
+}
+2025-08-31T08:17:39.538Z error: Error in listShgGroups: invalid argument to $skip stage: Expected a number in: $skip: null {
+  "errorLabelSet": {},
+  "errorResponse": {
+    "ok": 0,
+    "errmsg": "invalid argument to $skip stage: Expected a number in: $skip: null",
+    "code": 5107200,
+    "codeName": "Location5107200",
+    "$clusterTime": {
+      "clusterTime": {
+        "$timestamp": "7544660936519319556"
+      },
+      "signature": {
+        "hash": "QIgQjOzQqFNjAqoLVPhzUNbxzFk=",
+        "keyId": {
+          "low": 6,
+          "high": 1744697874,
+          "unsigned": false
+        }
+      }
+    },
+    "operationTime": {
+      "$timestamp": "7544660936519319556"
+    }
+  },
+  "ok": 0,
+  "code": 5107200,
+  "codeName": "Location5107200",
+  "$clusterTime": {
+    "clusterTime": {
+      "$timestamp": "7544660936519319556"
+    },
+    "signature": {
+      "hash": "QIgQjOzQqFNjAqoLVPhzUNbxzFk=",
+      "keyId": {
+        "low": 6,
+        "high": 1744697874,
+        "unsigned": false
+      }
+    }
+  },
+  "operationTime": {
+    "$timestamp": "7544660936519319556"
+  }
+}
+2025-08-31T08:18:35.224Z error: Error in listShgGroups: invalid argument to $skip stage: Expected a number in: $skip: "0" {
+  "errorLabelSet": {},
+  "errorResponse": {
+    "ok": 0,
+    "errmsg": "invalid argument to $skip stage: Expected a number in: $skip: \"0\"",
+    "code": 5107200,
+    "codeName": "Location5107200",
+    "$clusterTime": {
+      "clusterTime": {
+        "$timestamp": "7544661172742520845"
+      },
+      "signature": {
+        "hash": "IzT3xXHIE6qBkbJRWTZYVes1pYM=",
+        "keyId": {
+          "low": 6,
+          "high": 1744697874,
+          "unsigned": false
+        }
+      }
+    },
+    "operationTime": {
+      "$timestamp": "7544661172742520845"
+    }
+  },
+  "ok": 0,
+  "code": 5107200,
+  "codeName": "Location5107200",
+  "$clusterTime": {
+    "clusterTime": {
+      "$timestamp": "7544661172742520845"
+    },
+    "signature": {
+      "hash": "IzT3xXHIE6qBkbJRWTZYVes1pYM=",
+      "keyId": {
+        "low": 6,
+        "high": 1744697874,
+        "unsigned": false
+      }
+    }
+  },
+  "operationTime": {
+    "$timestamp": "7544661172742520845"
+  }
+}
+2025-08-31T08:18:38.380Z error: Error in listShgGroups: invalid argument to $skip stage: Expected a number in: $skip: "0" {
+  "errorLabelSet": {},
+  "errorResponse": {
+    "ok": 0,
+    "errmsg": "invalid argument to $skip stage: Expected a number in: $skip: \"0\"",
+    "code": 5107200,
+    "codeName": "Location5107200",
+    "$clusterTime": {
+      "clusterTime": {
+        "$timestamp": "7544661189922390017"
+      },
+      "signature": {
+        "hash": "0qT6a3yiWL86J7SDwW4uPcKrp+U=",
+        "keyId": {
+          "low": 6,
+          "high": 1744697874,
+          "unsigned": false
+        }
+      }
+    },
+    "operationTime": {
+      "$timestamp": "7544661189922390017"
+    }
+  },
+  "ok": 0,
+  "code": 5107200,
+  "codeName": "Location5107200",
+  "$clusterTime": {
+    "clusterTime": {
+      "$timestamp": "7544661189922390017"
+    },
+    "signature": {
+      "hash": "0qT6a3yiWL86J7SDwW4uPcKrp+U=",
+      "keyId": {
+        "low": 6,
+        "high": 1744697874,
+        "unsigned": false
+      }
+    }
+  },
+  "operationTime": {
+    "$timestamp": "7544661189922390017"
+  }
+}
+2025-08-31T12:29:37.369Z error: Error updating government scheme: {"errors":{"lang":{"name":"ValidatorError","message":"`hg` is not a valid enum value for path `lang`.","properties":{"message":"`hg` is not a valid enum value for path `lang`.","type":"enum","enumValues":["en","hi","mr"],"path":"lang","fullPath":"lang","value":"hg"},"kind":"enum","path":"lang","value":"hg"}},"_message":"Validation failed","name":"ValidationError","message":"Validation failed: lang: `hg` is not a valid enum value for path `lang`."}
+2025-09-07T13:07:17.308Z error: Error getting subscription by ID: {"errorLabelSet":{},"reason":{"type":"ReplicaSetNoPrimary","servers":{"cluster0-shard-00-00.h5nml.mongodb.net:27017":{"address":"cluster0-shard-00-00.h5nml.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":466469575,"lastWriteDate":0,"error":{"errorLabelSet":{},"beforeHandshake":false},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false},"cluster0-shard-00-01.h5nml.mongodb.net:27017":{"address":"cluster0-shard-00-01.h5nml.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":466469575,"lastWriteDate":0,"error":{"errorLabelSet":{},"beforeHandshake":false},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false},"cluster0-shard-00-02.h5nml.mongodb.net:27017":{"address":"cluster0-shard-00-02.h5nml.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":466469576,"lastWriteDate":0,"error":{"errorLabelSet":{},"beforeHandshake":false},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false}},"stale":false,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"setName":"atlas-uejk9b-shard-0","maxElectionId":{"$oid":"7fffffff000000000000011b"},"maxSetVersion":355,"commonWireVersion":0,"logicalSessionTimeoutMinutes":null}}
+2025-09-07T13:07:19.427Z error: Error creating subscription: {"errorLabelSet":{},"reason":{"type":"ReplicaSetNoPrimary","servers":{"cluster0-shard-00-00.h5nml.mongodb.net:27017":{"address":"cluster0-shard-00-00.h5nml.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":466471637,"lastWriteDate":0,"error":{"errorLabelSet":{},"beforeHandshake":false},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false},"cluster0-shard-00-01.h5nml.mongodb.net:27017":{"address":"cluster0-shard-00-01.h5nml.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":466471637,"lastWriteDate":0,"error":{"errorLabelSet":{},"beforeHandshake":false},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false},"cluster0-shard-00-02.h5nml.mongodb.net:27017":{"address":"cluster0-shard-00-02.h5nml.mongodb.net:27017","type":"Unknown","hosts":[],"passives":[],"arbiters":[],"tags":{},"minWireVersion":0,"maxWireVersion":0,"roundTripTime":-1,"minRoundTripTime":0,"lastUpdateTime":466471638,"lastWriteDate":0,"error":{"errorLabelSet":{},"beforeHandshake":false},"topologyVersion":null,"setName":null,"setVersion":null,"electionId":null,"logicalSessionTimeoutMinutes":null,"maxMessageSizeBytes":null,"maxWriteBatchSize":null,"maxBsonObjectSize":null,"primary":null,"me":null,"$clusterTime":null,"iscryptd":false}},"stale":false,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"setName":"atlas-uejk9b-shard-0","maxElectionId":{"$oid":"7fffffff000000000000011b"},"maxSetVersion":355,"commonWireVersion":0,"logicalSessionTimeoutMinutes":null}}
+2025-09-07T13:11:26.307Z error: Error getting subscriptions by group: {}
+2025-09-07T13:11:57.242Z error: Error getting subscriptions by group: {"errorLabelSet":{},"errorResponse":{"ok":0,"errmsg":"path option to $unwind stage should be prefixed with a '$': shg_group","code":28818,"codeName":"Location28818","$clusterTime":{"clusterTime":{"$timestamp":"7547334356092583952"},"signature":{"hash":"DljRg54vrJrSHNN2osjp3flUny8=","keyId":{"low":6,"high":1744697874,"unsigned":false}}},"operationTime":{"$timestamp":"7547334356092583952"}},"ok":0,"code":28818,"codeName":"Location28818","$clusterTime":{"clusterTime":{"$timestamp":"7547334356092583952"},"signature":{"hash":"DljRg54vrJrSHNN2osjp3flUny8=","keyId":{"low":6,"high":1744697874,"unsigned":false}}},"operationTime":{"$timestamp":"7547334356092583952"}}
+2025-09-07T13:12:46.323Z error: Error getting subscriptions by group: {"errorLabelSet":{},"errorResponse":{"ok":0,"errmsg":"path option to $unwind stage should be prefixed with a '$': shg_group","code":28818,"codeName":"Location28818","$clusterTime":{"clusterTime":{"$timestamp":"7547334570840948738"},"signature":{"hash":"1TFvkA70+ZXDrxHKWZyORxeyJjo=","keyId":{"low":6,"high":1744697874,"unsigned":false}}},"operationTime":{"$timestamp":"7547334570840948738"}},"ok":0,"code":28818,"codeName":"Location28818","$clusterTime":{"clusterTime":{"$timestamp":"7547334570840948738"},"signature":{"hash":"1TFvkA70+ZXDrxHKWZyORxeyJjo=","keyId":{"low":6,"high":1744697874,"unsigned":false}}},"operationTime":{"$timestamp":"7547334570840948738"}}
+2025-09-07T13:21:23.882Z error: Error registering group: {}

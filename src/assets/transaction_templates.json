@@ -1,0 +1,10 @@
+{
+    "SAVINGS_DEPOSIT_WITHOUT_PENALTY": "Savings paid by {{member_name}} for the cycle starting from {{cycle_start_date}} to {{cycle_end_date}}",
+    "SAVINGS_DEPOSIT_WITH_PENALTY": "Savings paid by {{member_name}} for the cycle starting from {{cycle_start_date}} to {{cycle_end_date}} with penalty of {{penalty_amount}}",
+    "LOAN_APPROVAL": "Loan taken by {{member_name}} for the amount of {{amount}}",
+    "LOAN_PROCESSING_FEE": "Processing fee amount {{amount}} paid by {{member_name}} for the loan sanctioned {{loan_id}}",
+    "LOAN_INSTALLMENT_WITHOUT_PENALTY": "Installment amount {{amount}} paid by {{member_name}}. Loan ID - {{loan_id}} - Installment No - {{installment_number}}",
+    "LOAN_INSTALLMENT_WITH_PENALTY": "Installment amount {{amount}} paid by {{member_name}}. Loan ID - {{loan_id}} - Installment No - {{installment_number}} with penalty of {{penalty_amount}}",
+    "USER_DEPOSIT": "{{member_name}} deposited {{amount}} in the group",
+    "LOAN_PRECLOSE": "Loan preclosed by {{member_name}} for the amount of {{amount}}. Approved by {{approved_by}} on {{preclose_date}}"
+}
