@@ -70,5 +70,5 @@ app.use('/api/issues', issueRoutes);
 
 // Start server
 app.listen(PORT, () => {
-    logger.info(`Server is deployed on port ${PORT}`);
+    logger.info(`Server is deployed on port - ${PORT}`);
 }); 
