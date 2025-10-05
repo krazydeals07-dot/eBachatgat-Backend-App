@@ -37,9 +37,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 app.use(upload.any()); // Middleware for handling multipart/form-data
 
-// Connect to MongoDB
-connectDB();
-
 // Routes
 app.get('/', (req, res) => {
     res.status(200).json({
@@ -69,6 +66,11 @@ app.use('/api/subscription', subscriptionRoutes);
 app.use('/api/issues', issueRoutes);
 
 // Start server
-app.listen(PORT, () => {
-    logger.info(`Server is deployed on port - ${PORT}`);
-}); 
+const startServer = async () => {
+    await connectDB();
+    app.listen(PORT, () => {
+        logger.info(`Server is running on port ${PORT}`);
+    });
+}
+
+startServer();
