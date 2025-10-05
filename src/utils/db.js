@@ -1,18 +1,18 @@
 const mongoose = require('mongoose');
-require('dotenv').config();
 const logger = require('../../logger');
 
-const connectDB = async () => {
+const connectToDatabase = async () => {
   try {
-    await mongoose.connect(process.env.MONGODB_URI, {
+    const connection = await mongoose.connect(process.env.MONGODB_URI, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
-    logger.info('MongoDB connected successfully - ');
+    logger.info('MongoDB connected successfully');
+    return connection; // Return the connection object
   } catch (error) {
-    logger.critical('MongoDB connection error:', error);
+    logger.error('Error connecting to MongoDB:', error.message);
     process.exit(1);
   }
 };
 
-module.exports = connectDB; 
+module.exports = connectToDatabase;
